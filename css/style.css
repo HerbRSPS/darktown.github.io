@@ -295,7 +295,7 @@ label {
 	bottom: 0;
 	border-radius: 0;
 	left: auto;
-	background-color: #e4a101;
+	background-color: rgb(255, 213, 123);
 }
 .btn.btn-style-two::after {
 	content: "";
@@ -311,7 +311,7 @@ label {
 	bottom: 0;
 	border-radius: 0;
 	left: auto;
-	background-color: #e4a101;
+	background-color: rgb(255, 213, 123);
 }
 .btn.btn-style-two:hover::before {
 	right: 0;
@@ -448,7 +448,7 @@ ul.minicart .cart-content a:hover,
 .newsletter-form button:hover,
 .fw-link ul li a:hover,
 .copyright-text p a {
-	color: #41b6ff;
+	color: rgb(255, 213, 123);
 }
 .header-top-action ul {
 	display: flex;
@@ -533,6 +533,7 @@ ul.minicart .cart-content a:hover,
 	letter-spacing: 1.5px;
 	text-transform: capitalize;
 	color: #edeaea;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.062);
 	padding: 43px 26px;
 	display: block;
 	line-height: 1;
@@ -566,7 +567,7 @@ ul.minicart .cart-content a:hover,
 	bottom: 0;
 }
 .navbar-wrap ul li:hover > a {
-	color: #3b98ee;
+	color: #ffd57b;
 }
 .navbar-wrap ul li.show,
 .navbar-wrap ul li.show a::before,
@@ -574,7 +575,8 @@ ul.minicart .cart-content a:hover,
 	opacity: 1;
 }
 .navbar-wrap ul li.show > a {
-	color: #41b6ff;
+	color: #ffd57b;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
 }
 .navbar-wrap ul li.active > a::before {
 	opacity: 1;
@@ -728,7 +730,6 @@ ul.minicart .cart-price .new {
 .menu-style-two {
 	padding: 28px 30px;
 	border-radius: 0 0 14px 14px;
-	background-image: url(../img/bg/header_bg.png);
 	background-position: right center;
 	background-size: cover;
 	position: relative;
@@ -937,7 +938,7 @@ ul.minicart .cart-price .new {
 .third-banner-content h2 span,
 .third-title-style h2 span,
 .third-title-style .vertical-title {
-    color: #ee5519;
+    color: rgb(255, 213, 123);
 }
 .third-header-bg .menu-style-two .navbar-wrap > ul > li > a {
     padding: 35px 0;
@@ -1218,7 +1219,7 @@ ul.minicart .cart-price .new {
 
 /* 5. Slider */
 .slider-bg {
-	background-image: url(../img/slider/slider_bg.jpg);
+	background-image: url(../img/slider/slider_bg.png);
 	background-position: center;
 	background-size: cover;
 	padding: 260px 0;
@@ -1279,7 +1280,7 @@ ul.minicart .cart-price .new {
 	line-height: 1.6;
 }
 .slider-style-two {
-	background-image: url(../img/slider/slider_bg02.jpg);
+	background-image: url(../img/slider/slider_bg02.png);
 	padding: 290px 0 190px;
 	position: relative;
 	z-index: 1;
@@ -1705,14 +1706,17 @@ ul.minicart .cart-price .new {
 	background-image: url(../img/images/title_bar02.png);
 }
 .title-style-three h2 {
-	color: #1c1121;
+	color: #ffffff;
 	text-transform: uppercase;
-	font-size: 36px;
+	font-size: 50px;
+	font-family: 'Chalet';
+	letter-spacing: 1.5px;
 	margin-bottom: 10px;
 }
 .title-style-three p {
-	color: #6c6c6c;
+	color: #e6e6e6;
 	margin-bottom: 0;
+	font-size: 24px;
 }
 .about-content {
 	padding-right: 70px;
@@ -2314,17 +2318,6 @@ ul.minicart .cart-price .new {
 	position: relative;
 	z-index: 1;
 }
-.featured-game-item::before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(233, 163, 1, 0.749);
-	transition: .3s linear;
-	opacity: 0;
-}
 .featured-game-thumb img {
 	width: 100%;
 }
@@ -2384,10 +2377,6 @@ ul.minicart .cart-price .new {
 .featured-game-overlay-content h4 span,
 .featured-game-overlay-content .featured-game-meta i {
 	color: #fff;
-}
-.featured-game-item:hover .featured-game-content {
-	opacity: 0;
-	visibility: hidden;
 }
 .featured-game-item:hover .featured-game-overlay-content,
 .featured-game-item:hover::before {
