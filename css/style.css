@@ -116,7 +116,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Oxanium', cursive;
-	color: #fff;
+	color: #000000;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 800;
@@ -125,10 +125,12 @@ h6 {
 h1 a,
 h2 a,
 h3 a,
-h4 a,
 h5 a,
 h6 a {
 	color: inherit;
+}
+h4 a{
+	color: white;
 }
 h1 {
 	font-size: 40px;
@@ -1137,11 +1139,15 @@ ul.minicart .cart-price .new {
 .s-breadcrumb-bg {
 	background-image: url(../img/bg/breadcrumb_bg02.png);
 }
+.s-breadcrumb1-bg {
+	background-image: url(../img/bg/breadcrumb1_bg02.png);
+}
 .third-breadcrumb-bg {
 	background-image: url(../img/bg/breadcrumb_bg03.jpg);
 }
 .breadcrumb-content h2 {
 	font-size: 100px;
+	color: #fff;
 	text-transform: capitalize;
 	font-family: 'grinddemolished';
 	line-height: .8;
@@ -1165,7 +1171,7 @@ ul.minicart .cart-price .new {
 	color: #f2a900;
 }
 .breadcrumb-content h2 span {
-	color: #f2a900;
+	color: #FFD57B;
 	font-size: 100px;
 	font-family: 'grinddemolished';
 }
@@ -1291,6 +1297,7 @@ ul.minicart .cart-price .new {
 	display: none;
 }
 .slider-style-two .slider-content h2 {
+	color: white;
 	font-family: 'grinddemolished';
 	font-size: 90px;
 	text-transform: capitalize;
@@ -1788,6 +1795,7 @@ ul.minicart .cart-price .new {
     z-index: -1;
 }
 .third-title-style h2 {
+	color: white;
     font-family: 'Chalet';
     text-transform: uppercase;
     font-weight: normal;
@@ -2965,6 +2973,7 @@ ul.minicart .cart-price .new {
 }
 .product-content h4 {
 	font-size: 16px;
+	color: white;
 	margin-bottom: 10px;
 }
 .product-meta {
@@ -3107,10 +3116,11 @@ ul.minicart .cart-price .new {
 }
 .uc-game-head-title > span {
 	display: block;
-	font-size: 12px;
+	font-size: 20px;
 	font-weight: 600;
-	color: #e8a301;
-	font-family: 'Oxanium', cursive;
+	color: #FFD57B;
+	font-family: 'Chalet';
+	letter-spacing: 3px;
 	margin-bottom: 6px;
 }
 .uc-game-head-title h4 {
@@ -3151,7 +3161,7 @@ ul.minicart .cart-price .new {
 	z-index: -1;
 	right: 0;
 	margin: 0 auto;
-	background: #e4a101;
+	background: #FFD57B;
 	box-shadow: 0px 1px 8.37px 0.63px rgba(114, 113, 113, 0.18);
 	-webkit-transition: all 0.3s ease-out 0s;
 	-moz-transition: all 0.3s ease-out 0s;
@@ -3236,14 +3246,16 @@ ul.minicart .cart-price .new {
 }
 .game-single-content .uc-game-head-title h4,
 .game-single-title h4 {
-	font-size: 24px;
-	color: #1c1121;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: #ffffff;
 	text-transform: uppercase;
 	margin-bottom: 0;
+	font-family: 'Chalet';
 }
 .game-single-content .uc-game-head-title h4 > span,
 .game-single-title h4 span {
-	color: #e8a301;
+	color: #FFD57B;
 }
 .game-single-content .uc-game-head-title > span {
 	margin-bottom: 10px;
@@ -3254,12 +3266,14 @@ ul.minicart .cart-price .new {
 }
 .game-single-content p {
 	font-size: 14px;
-	color: #6c6c6c;
+	color: #868686;
+	font-family: 'Arial';
+	letter-spacing: 1.5px;
 	margin-bottom: 20px;
 }
 .game-single-content p > span {
 	font-weight: 600;
-	color: #1c1121;
+	color: #FFD57B;
 }
 .game-single-img img {
 	width: 100%;
@@ -3270,20 +3284,25 @@ ul.minicart .cart-price .new {
 	margin-bottom: 5px;
 }
 .game-single-info ul li {
-	color: #6c6c6c;
-	font-size: 14px;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	font-family: 'Chalet';
 	display: block;
 	padding-bottom: 18px;
-	border-bottom: 1px solid #e6e5e4;
+	border-bottom: 1px solid #2b2b2b;
 	margin-bottom: 16px;
 }
 .game-single-info ul li:last-child {
 	margin-bottom: 0;
 }
 .game-single-info ul li span {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 600;
-	color: #413f3f;
+	font-family: 'Chalet';
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #FFD57B;
 	margin-right: 40px;
 }
 .game-single-gallery img {
@@ -4638,6 +4657,7 @@ ul.minicart .cart-price .new {
 }
 .s-newsletter-area .newsletter-title h2 {
 	letter-spacing: 0;
+	color: white;
 	font-size: 34px;
 	text-transform: capitalize;
 	font-family: 'grinddemolished';
