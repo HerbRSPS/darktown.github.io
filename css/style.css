@@ -44,18 +44,26 @@
 @import url('https://fonts.googleapis.com/css?family=Oxanium:400,500,600,700,800|Poppins:400,400i,500,500i,600,600i,700,700i&display=swap');
 @font-face {
     font-family: 'grinddemolished';
-    src: url('../fonts/grind_demolished-webfont.woff2') format('woff2'),
-         url('../fonts/grind_demolished-webfont.woff') format('woff');
+    src: url('../fonts/pricedown_bl.woff') format('woff2'),
+         url('../fonts/pricedown_bl.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chalet';
+    src: url('../fonts/ChaletComprime_CologneSixty.woff') format('woff2'),
+         url('../fonts/ChaletComprime_CologneSixty.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Chalet';
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
 	font-weight: 500;
-	color: #d4d4d4;
+	color: #1C181E;
 }
 .img {
 	max-width: 100%;
@@ -93,7 +101,7 @@ a:hover,
 }
 a,
 button {
-	color: #1696e7;
+	color: #41b6ff;
 	outline: medium none;
 }
 button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
@@ -218,9 +226,9 @@ label {
 	color: #1c1121;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 700;
-	letter-spacing: 0;
+	letter-spacing: 1px;
 	line-height: 1;
 	margin-bottom: 0;
 	padding: 20px 44px;
@@ -349,8 +357,9 @@ label {
 .header-top-offer p,
 .time-count {
 	margin-bottom: 0;
-	font-size: 13px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 2px;
 	color: #a5a5a5;
 }
 .header-top-offer .time-count {
@@ -363,7 +372,7 @@ label {
 	display: inline-block;
 	padding: 16px 25px;
 	font-weight: 900;
-	font-size: 18px;
+	font-size: 20px;
 	color: #1c1121;
 	position: relative;
 	z-index: 1;
@@ -439,7 +448,7 @@ ul.minicart .cart-content a:hover,
 .newsletter-form button:hover,
 .fw-link ul li a:hover,
 .copyright-text p a {
-	color: #e4a101;
+	color: #41b6ff;
 }
 .header-top-action ul {
 	display: flex;
@@ -448,7 +457,8 @@ ul.minicart .cart-content a:hover,
 }
 .header-top-mail p {
 	margin-bottom: 0;
-	font-size: 12px;
+	font-size: 17px;
+	letter-spacing: 1.5px;
 	color: #bcbcbc;
 }
 .header-top-mail p a {
@@ -518,16 +528,17 @@ ul.minicart .cart-content a:hover,
 	position: relative;
 }
 .navbar-wrap ul li a {
-	font-size: 14px;
-	font-weight: 700;
-	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 800;
+	letter-spacing: 1.5px;
+	text-transform: capitalize;
 	color: #edeaea;
 	padding: 43px 26px;
 	display: block;
 	line-height: 1;
 	position: relative;
 	z-index: 1;
-	font-family: 'Oxanium', cursive;
+	font-family: 'Chalet';
 }
 .navbar-wrap ul li.show a::before,
 .navbar-wrap ul li a::before {
@@ -555,7 +566,7 @@ ul.minicart .cart-content a:hover,
 	bottom: 0;
 }
 .navbar-wrap ul li:hover > a {
-	color: #1c1121;
+	color: #3b98ee;
 }
 .navbar-wrap ul li.show,
 .navbar-wrap ul li.show a::before,
@@ -563,7 +574,7 @@ ul.minicart .cart-content a:hover,
 	opacity: 1;
 }
 .navbar-wrap ul li.show > a {
-	color: #1c1121;
+	color: #41b6ff;
 }
 .navbar-wrap ul li.active > a::before {
 	opacity: 1;
@@ -717,7 +728,7 @@ ul.minicart .cart-price .new {
 .menu-style-two {
 	padding: 28px 30px;
 	border-radius: 0 0 14px 14px;
-	background-image: url(../img/bg/header_bg.jpg);
+	background-image: url(../img/bg/header_bg.png);
 	background-position: right center;
 	background-size: cover;
 	position: relative;
@@ -807,7 +818,7 @@ ul.minicart .cart-price .new {
     top: 0;
     width: 100%;
     z-index: 99;
-    background-image: url(../img/bg/header_bg.jpg);
+    background-image: url(../img/bg/header_bg.png);
     -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
@@ -893,7 +904,7 @@ ul.minicart .cart-price .new {
 	z-index: 9;
 }
 .third-header-bg .bg {
-    background-image: url(../img/bg/h3_header_bg.jpg);
+    background-image: url(../img/bg/h3_header_bg.png);
     position: absolute;
     left: 0;
     top: 0;
@@ -1114,26 +1125,6 @@ ul.minicart .cart-price .new {
 .modal-open .header-top {
 	z-index: 2;
 }
-.btn,
-.header-user-login > a i,
-.navbar-wrap ul li a::before,
-.header-shop-cart a span,
-.header-shop-cart .minicart .checkout-link a,
-.lg-tag a::before,
-.product-content .product-tag a::before,
-.tournament-menu button::before,
-.tournament-schedule-meta a:hover,
-.product-cart-action a:hover,
-.newsletter-form button,
-.footer-newsletter button,
-.transparent-btn:hover,
-.fw-title h5::before,
-.features-item .product-tag a::before,
-.shop-area.black-bg .product-cart-action a:hover,
-.latest-match-box .tournament-schedule-meta a:hover,
-.features-item .features-list-content .product-tag a:hover::before {
-	background: #e4a101;
-}
 
 /* 4. Breadcrumb */
 .breadcrumb-bg {
@@ -1298,19 +1289,25 @@ ul.minicart .cart-price .new {
 	display: none;
 }
 .slider-style-two .slider-content h2 {
+	font-family: 'grinddemolished';
 	font-size: 90px;
 	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 .slider-style-two .slider-content p {
 	font-weight: 400;
 	color: #dbdbdb;
 	width: 80%;
 	margin: 0 0 45px;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 30px;
+	letter-spacing: 0.5px;
 }
 .slider-style-two .slider-content h6 {
+	font-family: 'Chalet';
 	margin-bottom: 15px;
+	font-size: 40px;
+	letter-spacing: 5px;
 	display: block;
 	padding: 0;
 }
@@ -1770,7 +1767,7 @@ ul.minicart .cart-price .new {
 	z-index: -1;
 }
 .third-about-bg {
-    background-image: url(../img/bg/third_about_bg.jpg);
+    background-color: #1C181E;
     background-position: center;
 	background-size: cover;
 	position: relative;
@@ -1785,7 +1782,7 @@ ul.minicart .cart-price .new {
     z-index: -1;
 }
 .third-title-style h2 {
-    font-family: 'grinddemolished';
+    font-family: 'Chalet';
     text-transform: uppercase;
     font-weight: normal;
     font-size: 45px;
@@ -1794,17 +1791,18 @@ ul.minicart .cart-price .new {
 	letter-spacing: -1px;
 }
 .third-title-style .inner {
-    padding-left: 45px;
+    padding-left: 10px;
     position: relative;
     margin-bottom: 45px;
 }
 .third-title-style .vertical-title {
-    font-family: 'grinddemolished';
-    text-transform: uppercase;
-    font-weight: normal;
-    font-size: 16px;
+    font-family: 'Chalet';
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
     position: absolute;
     transform: rotate(-90deg);
+	letter-spacing: 4px;
     left: -50px;
     margin-bottom: 0;
     top: 65px;
@@ -2397,7 +2395,7 @@ ul.minicart .cart-price .new {
 	visibility: visible;
 }
 .featured-game-bg {
-	background-image: url(../img/bg/featured_game_bg.png);
+	background-color: #1C181E;
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -4506,7 +4504,7 @@ ul.minicart .cart-price .new {
     margin-top: 10px;
 }
 .third-title-style ul li {
-	font-size: 14px;
+	font-size: 24px;
 	color: #d3d3d3;
 }
 .third-title-style ul li span {

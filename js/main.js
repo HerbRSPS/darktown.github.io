@@ -1017,7 +1017,7 @@ $('.odometer').appear(function (e) {
 $('[data-countdown]').each(function () {
 	var $this = $(this), finalDate = $(this).data('countdown');
 	$this.countdown(finalDate, function (event) {
-		$this.html(event.strftime('<div class="time-count"><span>%D</span>Days</div><div class="time-count"><span>%H</span>Hrs</div><div class="time-count"><span>%M</span>Mins</div><div class="time-count"><span>%S</span>Secs</div>'));
+		$this.html(event.strftime('<div class="time-count"><span>%D</span>Dagen</div><div class="time-count"><span>%H</span>Hrs</div><div class="time-count"><span>%M</span>Mins</div><div class="time-count"><span>%S</span>Secs</div>'));
 	});
 });
 
