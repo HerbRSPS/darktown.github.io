@@ -159,7 +159,8 @@ li {
 	list-style: none
 }
 p {
-	font-size: 15px;
+	font-size: 17px;
+	letter-spacing: 0.5px;
 	font-weight: 500;
 	line-height: 28px;
 	color: #cbcbcb;
@@ -1588,10 +1589,11 @@ ul.minicart .cart-price .new {
 .lg-tag a,
 .product-content .product-tag a,
 .features-item .product-tag a {
-	font-size: 12px;
+	font-size: 18px;
 	font-weight: 800;
 	text-transform: uppercase;
-	color: #1c1121;
+	color: #ffffff;
+	letter-spacing: 1.5px;
 	height: 30px;
 	line-height: 30px;
 	display: block;
@@ -2746,7 +2748,7 @@ ul.minicart .cart-price .new {
 
 /* 14. Just-gamers */
 .just-gamers-bg {
-	background-image: url(../img/bg/just_gamer_bg.jpg);
+	background-image: url(../img/bg/just_gamer_bg.png);
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -3024,8 +3026,8 @@ ul.minicart .cart-price .new {
 	border: 3px solid #6e6b6f;
 }
 .shop-area.black-bg .product-active .slick-arrow:hover {
-	color: #e4a101;
-	border-color: #e4a101;
+	color: #F1C975;
+	border-color: #F1C975;
 }
 .accessories-thumb img {
 	width: 100%;
@@ -4627,7 +4629,7 @@ ul.minicart .cart-price .new {
 	border-color: #fff transparent transparent transparent;
 }
 .newsletter-form button i {
-	font-size: 12px;
+	font-size: 18px;
 	margin-left: 5px;
 }
 .s-newsletter-area .newsletter-wrap {
@@ -4635,7 +4637,9 @@ ul.minicart .cart-price .new {
 }
 .s-newsletter-area .newsletter-title h2 {
 	letter-spacing: 0;
-	text-transform: uppercase;
+	font-size: 34px;
+	text-transform: capitalize;
+	font-family: 'grinddemolished';
 }
 .s-newsletter-area .newsletter-form form input {
 	background: #262228;
@@ -4664,13 +4668,13 @@ ul.minicart .cart-price .new {
 	padding-bottom: 40px;
 }
 .footer-text p {
-	font-size: 15px;
+	font-size: 20px;
 	color: #90949c;
 	margin-bottom: 15px;
 }
 .footer-contact ul li {
 	margin-bottom: 10px;
-	font-size: 15px;
+	font-size: 20px;
 	color: #90949c;
 	line-height: 28px;
 }
@@ -4704,7 +4708,7 @@ ul.minicart .cart-price .new {
 }
 .fw-link ul li a {
 	color: #90949c;
-	font-size: 14px;
+	font-size: 20px;
 	line-height: 40px;
 	display: inline-block;
 }
@@ -4781,7 +4785,7 @@ ul.minicart .cart-price .new {
 	padding: 20px 0;
 }
 .copyright-text p {
-	font-size: 14px;
+	font-size: 18px;
 	color: #90949c;
 	margin-bottom: 0;
 }
@@ -4792,7 +4796,9 @@ ul.minicart .cart-price .new {
 	background-image: url(../img/bg/s_footer_bg.jpg);
 }
 .s-footer-bg .fw-title h5 {
-	font-size: 16px;
+	font-size: 24px;
+	letter-spacing: 2px;
+	font-family: 'Chalet';
 	text-transform: uppercase;
 }
 .s-footer-bg .footer-newsletter input {
