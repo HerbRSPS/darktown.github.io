@@ -2413,7 +2413,7 @@ ul.minicart .cart-price .new {
 
 /* 12. Cta */
 .cta-bg {
-	background-image: url(../img/bg/cta_bg.jpg);
+	background-image: url(../img/bg/cta_bg.png);
 	padding: 120px 0;
 	background-position: center;
 	background-size: cover;
@@ -2730,7 +2730,8 @@ ul.minicart .cart-price .new {
 }
 .slider-nav > span {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 20px;
+	letter-spacing: 1.5px;
     font-weight: 600;
     color: #bebebe;
     cursor: pointer;
@@ -2743,7 +2744,7 @@ ul.minicart .cart-price .new {
 	margin-right: 5px;
 }
 .slider-nav > span:hover {
-	color: #ff5917;
+	color: #F1C975;
 }
 
 /* 14. Just-gamers */
@@ -4793,7 +4794,7 @@ ul.minicart .cart-price .new {
 	font-weight: 500;
 }
 .s-footer-bg {
-	background-image: url(../img/bg/s_footer_bg.jpg);
+	background-image: url(../img/bg/s_footer_bg.png);
 }
 .s-footer-bg .fw-title h5 {
 	font-size: 24px;
