@@ -273,8 +273,8 @@ $('.game-gallery-active').slick({
 	centerMode: true,
 	centerPadding: '350px',
 	slidesToShow: 1,
-	prevArrow: '<span class="slick-prev"><i class="fas fa-caret-left"></i> previous</span>',
-	nextArrow: '<span class="slick-next">Next <i class="fas fa-caret-right"></i></span>',
+	prevArrow: '<span class="slick-prev"><i class="fas fa-caret-left"></i> vorige</span>',
+	nextArrow: '<span class="slick-next">Volgende <i class="fas fa-caret-right"></i></span>',
 	appendArrows: ".slider-nav",
 	responsive: [
 		{

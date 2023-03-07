@@ -113,10 +113,17 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
-	font-family: 'Oxanium', cursive;
+	font-family: 'Chalet', cursive;
 	color: #000000;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 800;
+	text-transform: normal;
+}
+h5{
+	font-family: 'Chalet', cursive;
+	color: #ffffff;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 800;
@@ -131,6 +138,8 @@ h6 a {
 }
 h4 a{
 	color: white;
+	font-size: 21px;
+	letter-spacing: 1.5px;
 }
 h1 {
 	font-size: 40px;
@@ -2983,7 +2992,8 @@ ul.minicart .cart-price .new {
 }
 .product-price h5 {
 	margin-bottom: 0;
-	font-size: 16px;
+	font-size: 24px;
+	letter-spacing: 1.5px;
 }
 .product-cart-action a {
 	background: #291b35;
@@ -3046,20 +3056,24 @@ ul.minicart .cart-price .new {
 	position: relative;
 }
 .accessories-content h5 {
-	font-size: 18px;
+	font-size: 24px;
+	letter-spacing: 1.5px;
 	text-transform: uppercase;
-	color: #37303a;
+	color: #FFD57B;
 	line-height: 1;
+	font-family: 'Chalet';
 	margin-bottom: 5px;
 }
 .accessories-content h5 a:hover {
 	color: #e9a301;
 }
 .accessories-content span {
-	font-size: 14px;
+	font-size: 24px;
 	font-weight: 500;
-	color: #6c6c6c;
+	color: #919191;
 	display: block;
+	letter-spacing: 1.5px;
+	font-family: 'Chalet';
 	transition: .3s linear;
 }
 .accessories-content .shop-add-action {
@@ -3069,9 +3083,11 @@ ul.minicart .cart-price .new {
 	bottom: 0;
 	opacity: 0;
 	visibility: hidden;
-	font-size: 14px;
+	font-size: 24px;
 	font-weight: 500;
 	color: #e9a301;
+	letter-spacing: 1.5px;
+	font-family: 'Chalet';
 }
 .accessories-item:hover .accessories-content .shop-add-action {
 	opacity: 1;
@@ -3275,6 +3291,17 @@ ul.minicart .cart-price .new {
 	font-weight: 600;
 	color: #FFD57B;
 }
+.game-single-content1 p {
+	font-size: 14px;
+	color: #868686;
+	font-family: 'Arial';
+	letter-spacing: 1.5px;
+	margin-bottom: 10px;
+}
+.game-single-content1 p > span {
+	font-weight: 600;
+	color: #FFD57B;
+}
 .game-single-img img {
 	width: 100%;
 	margin-bottom: 30px;
@@ -3304,6 +3331,26 @@ ul.minicart .cart-price .new {
 	letter-spacing: 3px;
 	color: #FFD57B;
 	margin-right: 40px;
+}
+.game-single-info1 ul li {
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	font-family: 'Chalet';
+	display: block;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+}
+.game-single-info1ul li:last-child {
+	margin-bottom: 0;
+}
+.game-single-info1 ul li span {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Chalet';
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #FFD57B;
 }
 .game-single-gallery img {
 	width: 100%;
