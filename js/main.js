@@ -337,6 +337,153 @@ $('.game-gallery-active').slick({
 
 
 /*=============================================
+	=         		PAGE LINKS           =
+=============================================*/
+// Define an object containing the links and their IDs
+var links = {
+
+	//Main Links
+	'home': {
+	  'id': 'home-link',
+	  'href': 'index.html'
+	},
+	'discord': {
+	  'id': 'discord-link',
+	  'href': 'https://discord.gg/Kbb4BXhVgh'
+	},
+	'doneren': {
+		'id': 'doneren-link',
+		'href': 'doneren.html'
+	  },
+	'fotoalbum': {
+	  'id': 'fotoalbum-link',
+	  'href': 'fotoalbum.html'
+	},
+	'videos': {
+	  'id': 'videos-link',
+	  'href': 'videos.html'
+	},
+	'wetboek': {
+		'id': 'wetboek-link',
+		'href': 'wetboek.html'
+	},
+	'fivem': {
+		'id': 'fivem-link',
+		'href': 'https://fivem.net/'
+	},
+	'cfx': {
+		'id': 'cfx-link',
+		'href': 'https://cfx.re/join/bdmdx4'
+	},
+
+	//Donatie Paketten
+	'BronzeDonatie': {
+		'id': 'bronzed-link',
+		'href': 'https://dtr.tebex.io/package/5190876'
+	},
+	'BronzeDonatiePagina': {
+		'id': 'bronzedp-link',
+		'href': 'bronze_pakket.html'
+	},
+	'ZilverDonatie': {
+		'id': 'zilverd-link',
+		'href': 'https://dtr.tebex.io/package/5190860'
+	},
+	'ZilverDonatiePagina': {
+		'id': 'zilverdp-link',
+		'href': 'zilver_pakket.html'
+	},
+	'GoldDonatie': {
+		'id': 'goldd-link',
+		'href': 'https://dtr.tebex.io/package/5190845'
+	},
+	'GoldDonatiePagina': {
+		'id': 'golddp-link',
+		'href': 'gold_pakket.html'
+	},
+	'DiamondDonatie': {
+		'id': 'diamondd-link',
+		'href': 'https://dtr.tebex.io/package/5190802'
+	},
+	'DiamondDonatiePagina': {
+		'id': 'diamonddp-link',
+		'href': 'diamond_pakket.html'
+	},
+	'PlatinumDonatie': {
+		'id': 'platinumd-link',
+		'href': 'https://dtr.tebex.io/package/5190906'
+	},
+	'PlatinumDonatiePagina': {
+		'id': 'platinumdp-link',
+		'href': 'platinum_pakket.html'
+	},
+	'SupremeDonatie': {
+		'id': 'supremed-link',
+		'href': 'https://dtr.tebex.io/package/5190903'
+	},
+	'SupremeDonatiePagina': {
+		'id': 'supremedp-link',
+		'href': 'supreme_pakket.html'
+	},
+	'EliteDonatie': {
+		'id': 'elited-link',
+		'href': 'https://dtr.tebex.io/package/5190902'
+	},
+	'EliteDonatiePagina': {
+		'id': 'elitedp-link',
+		'href': 'elite_pakket.html'
+	},
+	'DeluxeDonatie': {
+		'id': 'deluxed-link',
+		'href': 'https://dtr.tebex.io/package/5190897'
+	},
+	'DeluxeDonatiePagina': {
+		'id': 'deluxedp-link',
+		'href': 'deluxe_pakket.html'
+	},
+  };
+  
+// Loop through each link in the object
+for (var link in links) {
+	// Get all elements with the ID
+	var elems = document.querySelectorAll("#" + links[link].id);
+  
+	// Loop through each element
+	for (var i = 0; i < elems.length; i++) {
+		// Update the href attribute
+		elems[i].href = links[link].href;
+	}
+}
+
+
+/*=============================================
+	=           DONATION PRICES           =
+=============================================*/
+document.addEventListener("DOMContentLoaded", function() {
+    // Define the product prices
+    var productPrices = {
+      diamonddp: "€74.99",
+      golddp: "€49.99",
+      zilverdp: "€29.99",
+      bronzedp: "€14.99",
+      platinumdp: "€14.99",
+      supremedp: "€29.99",
+      elitedp: "€49.99",
+      deluxedp: "€99.99"
+    };
+  
+    // Find all elements with a product price ID and update their innerHTML
+    var priceElements = document.querySelectorAll("[id$='-price']");
+    priceElements.forEach(function(priceElement) {
+      var id = priceElement.getAttribute("id").replace("-price", "");
+      if (id in productPrices) {
+        priceElement.innerHTML = productPrices[id];
+      }
+    });
+  });
+  
+
+/*=============================================
     =    		Product Active		      =
 =============================================*/
 $('.product-active').slick({
