@@ -373,7 +373,7 @@ var links = {
 	},
 	'cfx': {
 		'id': 'cfx-link',
-		'href': 'https://cfx.re/join/bdmdx4'
+		'href': 'https://discord.gg/Kbb4BXhVgh'
 	},
 
 	//Donatie Paketten
